@@ -1,0 +1,10 @@
+.banner {
+    background-image: url('../Asset/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

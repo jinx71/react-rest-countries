@@ -1,0 +1,25 @@
+.countryContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .countryContainer {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+/* @media (max-width: 992px) and (min-width : 769) {
+    .countryContainer {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+} */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .countryContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
